@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FBF2CF;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -5,12 +15,64 @@ main{
     flex-direction: column;
 }
 
+.formulario{
+   background-color: #A1C298;
+   padding: 5%;
+   border-radius: 50px;
+   margin: 10px 0;
+}
 
 
 #title{
-
+    color: aliceblue;
+    text-align: center;
 }
 
 #description{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FA7070;
+    font-weight: 600;
+}
 
+#surver-form{
+
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    background-color: #C6EBC5;
+    padding: 5%;
+    border-radius: 20px;
+    margin: 15px 0;
+
+}
+
+.radio{
+    margin-left: 20px;
+   
+}
+
+.forms p{
+    margin-top: 10px;
+    color: #FA7070;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+}
+
+.forms label{
+    padding-bottom: 5px;
+    color: #FCF8E8;
+    font-weight: 600;
+}
+
+.forms button{
+    margin-top: 5px;
+    width: 50%;
+}
+
+#dropdown{
+    width: 50%;
 }
